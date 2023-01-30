@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.webp" alt="logo del encriptador">
+    
+    </header>
+    <main>
+        
+        <section class="secion1">
+            <textarea class="texto-ingresado" cols="25" rows="7" placeholder="Ingrese su texto a encriptar"></textarea>
+            
+            <div>       
+                <h6 class="advertencia">Solo letras minusculas y sin acentos</h6>
+            </div>          
+                <a href="#" class="encriptador" onclick="botonEncriptar()">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                        ENCRIPTAR
+                </a>       
+                <a href="#" class="desencriptador" onclick="botonDesencriptar()">
+                    <span id="span1b"></span>
+                    <span id="span2b"></span>
+                    <span id="span3b"></span>
+                    <span id="span4b"></span>
+                        DESENCRIPTAR
+                </a>
+                
+        </section>
+        <section class="section2">
+            <textarea class="texto-encriptado" cols="27" rows="9"></textarea>
+            <div>
+                <button class="copiar">COPIAR</button>
+            </div>
+        <div class="titulo">
+            <h1>ALURA</h1>
+        </div>
+        </section>
+        
+    </main>
+
+    <footer class="piedepagina">
+       
+    </footer>
+<script src="/script.js"></script>
+</body>
+</html>
