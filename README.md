@@ -1,4 +1,4 @@
-*************** #ELPROYECTO AUN SE ENCUENTRA EN COSTRUCCION#*********************
+***************ELPROYECTO AUN SE ENCUENTRA EN COSTRUCCION#*********************
 
 
 
