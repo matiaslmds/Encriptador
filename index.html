@@ -6,52 +6,52 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <style></style>
     <header>
-        <img class="logo" src="imagenes/logo.webp" alt="logo del encriptador">
+       <a href="https://www.aluracursos.com"><img class="logo" src="imagenes/logo.webp" alt="logo del encriptador"></a>
     
     </header>
     <main>
         
         <section class="secion1">
-            <textarea class="texto-ingresado" cols="25" rows="7" placeholder="Ingrese su texto a encriptar"></textarea>
+            <textarea class="texto-ingresado" cols="30" rows="10" placeholder="Ingrese su texto a encriptar"></textarea>
             
             <div>       
                 <h6 class="advertencia">Solo letras minusculas y sin acentos</h6>
-            </div>          
-                <a href="#" class="encriptador" onclick="botonEncriptar()">
-                    <span id="span1"></span>
-                    <span id="span2"></span>
-                    <span id="span3"></span>
-                    <span id="span4"></span>
-                        ENCRIPTAR
-                </a>       
-                <a href="#" class="desencriptador" onclick="botonDesencriptar()">
-                    <span id="span1b"></span>
-                    <span id="span2b"></span>
-                    <span id="span3b"></span>
-                    <span id="span4b"></span>
-                        DESENCRIPTAR
-                </a>
+            </div>   
+            
+            <div class="botones">
+                <button class="encriptador" onclick="botonEncriptar()">ENCRIPTAR</button>       
                 
+                <button class="desencriptador" onclick="botonDesencriptar()">DESENCRIPTAR</button>     
+              
+            </div> 
         </section>
+        
+        
         <section class="section2">
-            <textarea class="texto-encriptado" cols="27" rows="9"></textarea>
+            <textarea class="texto-encriptado" cols="20" rows="10"></textarea>
             <div>
-                <button class="copiar">COPIAR</button>
+                <button class="copiar" onclick="copiar()">COPIAR</button>
             </div>
-        <div class="titulo">
-            <h1>ALURA</h1>
-        </div>
+        
         </section>
         
     </main>
-
-    <footer class="piedepagina">
+<script src="./script.js"></script>
+    <footer>
+        <div class="iconos">
+          <a href="https://github.com/matiaslmds" target="_blank"><img src="./imagenes/github.fw.png" alt="logo Git Hub" class="git-hub"></a>
+          <a href="https://www.linkedin.com/in/matias-lopez-76972511a/" target="_blank"><img src="./imagenes/linkedin.png" alt="logo Linkedin" class="linkedin"></a>
+        </div>
        
     </footer>
-<script src="/script.js"></script>
+
 </body>
 </html>

@@ -50,4 +50,11 @@ function desencriptar(stringDesencriptada){
     return stringDesencriptada
 }
 
+/*COPIAR*/
+
+function copiar (){
+    let textCopiado = document.querySelector(".texto-encriptado");
+    textCopiado.select();
+    document.execCommand("Copy");
+}
 
