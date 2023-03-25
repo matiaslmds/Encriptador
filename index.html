@@ -18,30 +18,31 @@
     
     </header>
     <main>
-        
-        <section class="secion1">
-            <textarea class="texto-ingresado" cols="30" rows="10" placeholder="Ingrese su texto a encriptar"></textarea>
+        <div class="conteiner__textarea">
+            <section class="secion1">
+                <textarea class="texto-ingresado" cols="30" rows="10" placeholder="Ingrese su texto a encriptar"></textarea>
             
-            <div>       
-                <h6 class="advertencia">Solo letras minusculas y sin acentos</h6>
-            </div>   
+                <div>       
+                    <h6 class="advertencia">Solo letras minusculas y sin acentos</h6>
+                </div>   
             
-            <div class="botones">
-                <button class="encriptador" onclick="botonEncriptar()">ENCRIPTAR</button>       
+                <div class="botones">
+                    <button class="encriptador" onclick="botonEncriptar()">ENCRIPTAR</button>       
                 
-                <button class="desencriptador" onclick="botonDesencriptar()">DESENCRIPTAR</button>     
+                    <button class="desencriptador" onclick="botonDesencriptar()">DESENCRIPTAR</button>     
               
-            </div> 
-        </section>
+                </div> 
+            </section>
         
         
-        <section class="section2">
-            <textarea class="texto-encriptado" cols="20" rows="10"></textarea>
-            <div>
-                <button class="copiar" onclick="copiar()">COPIAR</button>
-            </div>
+            <section class="section2">
+                <textarea class="texto-encriptado" cols="20" rows="10"></textarea>
+                <div class="botones">
+                    <button class="copiar" onclick="copiar()">COPIAR</button>
+                </div>
         
-        </section>
+            </section>
+    </div>
         
     </main>
 <script src="./script.js"></script>
