@@ -153,17 +153,31 @@ footer img {
         max-width: 720px;
     }
 
+    header {
+        width: 100vw;
+        height: 10%;
+    }
+
+    main {
+        max-width: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+    
     .conteiner__textarea {
         flex-direction: column;
-        width: 80%;
+        width: 100%;
+        margin: 10%;
     }
 
     .section1 {
+
         
     }
 
     .texto-ingresado  {
-        width: 60%;
+        width: 80%;
         margin: 10% 5%;        
     
     }
@@ -174,8 +188,10 @@ footer img {
 
     .botones {
         flex-direction: column;
-        
-        padding: 5%;
+        align-items: center;
+        max-width: 700px;;
+        padding: 10%;
+        margin: 0;
     }
 
     .encriptador {
@@ -183,12 +199,10 @@ footer img {
     }
 
     .desencriptador {
-        margin: 0;
+        margin-top: 10%;
+        margin-right: 4%;
     }      
-
-    .section2 {
-        width: 80%;
-    }
+  
 
     .texto-encriptado{
         width: 80%;
@@ -204,8 +218,8 @@ footer img {
     }
 
     .iconos {
-        width: 50%;
-        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
 
     }
     
